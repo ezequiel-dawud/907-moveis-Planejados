@@ -11,7 +11,6 @@ header {
 
 .header-content {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -20,6 +19,8 @@ i {
 }
 
 .header-icons {
+  margin-top: 3em;
+  margin-left: 1em;
   display: flex;
   gap: 0.875em;
 }
@@ -48,13 +49,18 @@ i {
   transition: background-color 0.5s;
 }
 
+.buttom-header{
+  margin-top: 3.5em;
+  margin-right: 1em;
+}
+
 .header-button:hover {
   border: 1px solid #d34040;
   background-color: #d34040;
 }
 
 .header-logo {
-  width: 25vw;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,10 +81,10 @@ i {
   .header-icons {
     gap: 40px;
   }
-  .header-logo img {
-    width: 100%;
+  .header-logo > img {
+    width: 100vw;
     padding: 0;
-    margin: 5em 0em;
+    margin: 3em 0em;
   }
   .header-button {
     display: none;
