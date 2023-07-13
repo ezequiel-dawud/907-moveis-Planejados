@@ -37,6 +37,7 @@ i {
     transform: translateY(-8px) scale(1.1);
   }
 }
+
 .header-button {
   border: 1px solid #fff;
   padding: 0.5em 1.5em;
@@ -53,10 +54,11 @@ i {
 }
 
 .header-logo {
+  width: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1em;
+  margin-top: 10em;
 }
 
 @media screen and (max-width: 768px) {
@@ -215,21 +217,27 @@ i {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 3em 1em;
+  text-align: center;
+  padding: 0em 1em 2em 1em;
 }
 
 .services-content h2 {
   text-transform: uppercase;
   text-align: center;
+  justify-content: center;
   font-size: 2rem;
   margin-bottom: 1em;
 }
 
+
+
 .services-content p {
   line-height: 150%;
-  margin-bottom: 1em;
+  margin-bottom: 5em;
   text-align: center;
+  font-size: 1.5rem;
   max-width: 780px;
+  font-weight: 300;
 }
 
 .haircuts {
@@ -376,3 +384,22 @@ a {
   cursor: pointer;
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
+
+.carrossel{
+  margin: auto;
+  background-color: white;
+  height: 70%;
+  width: 100vw;  
+  padding: 8%;
+}
+
+.container-carrossel {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-footer{
+  width: 15%;
+  margin: 4em 0;
+}
