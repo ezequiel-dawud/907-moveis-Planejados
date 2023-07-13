@@ -1,3 +1,12 @@
+.carrossel{
+    display: flex;
+    background-color: white;
+    height: 50vh;
+    width: 50vw;  
+    margin: auto;
+}
+
+
 .container{
     max-width: 1440px;
     margin: 0 auto;
@@ -300,8 +309,5 @@
     }
 }
 
-.carrossel{
-    max-height: 90vh;
-    max-width: 90vw;
-    padding: 5%;
-}
+
+
