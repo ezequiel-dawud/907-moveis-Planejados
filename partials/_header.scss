@@ -1,3 +1,6 @@
+
+@import "./colors";
+
 header{
     width: 100%;
     padding-top: 3em;
@@ -10,7 +13,7 @@ header{
 }
 
 i{
-    color: $white-normal;
+    color: black;
 }
 
 .header-icons{
@@ -38,7 +41,7 @@ i{
 }
 
 .header-button{
-    border: 1px solid $white-normal;
+    border: 1px solid $verde-dark;
     padding: 0.5em 1.5em;
     border-radius: 4px;
     color: $white-normal;
