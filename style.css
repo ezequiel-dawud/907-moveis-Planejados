@@ -94,7 +94,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/marceneiro.jpg");
+  background-image: linear-gradient(to bottom, rgba(102, 114, 96, 0.5), rgba(51, 53, 50, 0.99)), url("../assets/marceneiro.jpg");
   left: 0;
   top: 0;
   width: 100%;
@@ -172,7 +172,7 @@ i {
   }
 }
 .about {
-  background-color: #06121e;
+  background-color: #1F252A;
   overflow: hidden;
   color: #ffffff;
 }
