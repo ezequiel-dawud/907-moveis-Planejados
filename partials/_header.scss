@@ -1,6 +1,9 @@
+
 header{
     width: 100%;
-    padding-top: 3em;
+    padding-top: 0em;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-content{
@@ -21,7 +24,7 @@ i{
 .header-icons a:hover{
 i{  
         animation: translateY 0.8s infinite alternate;  
-        color:$red-light;
+        color:$verde-claro;
 }
 }
 // i:hover{    
@@ -48,15 +51,18 @@ i{
 }
 
 .header-button:hover{
-    border: 1px solid $red-light;
-    background-color: $red-light;
+    border: 1px solid $verde-claro;
+    background-color: $verde-claro;
+    color: $verde-dark;
 }
 
 .header-logo{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3em;
+    margin-top: 10em;
+    width: 25vw;
+    height: 25vh;
 }
 
 @media screen and (max-width: 768px){
